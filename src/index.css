@@ -201,7 +201,7 @@ body {
 .hero__left .trust-pill,
 .hero__left .cta-pair,
 .hero__left .hero__footnote {
-  max-width: 620px;
+  max-width: 600px;
 }
 
 .trust-pill {
@@ -264,14 +264,32 @@ body {
 .hero__grid {
   position: absolute;
   top: 0;
-  right: 40px;
+  right: 0;
   bottom: 0;
+  left: 35%;
   z-index: 1;
+  overflow: hidden;
+  padding-top: 80px;
+}
+
+.hg-track {
   display: flex;
   align-items: flex-start;
+  width: max-content;
+  animation: hero-slide 40s linear infinite;
+}
+
+.hg-set {
+  display: flex;
   gap: 12px;
-  padding-top: 80px;
-  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-right: 12px;
+}
+
+@keyframes hero-slide {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
 
 .hg-col {
@@ -280,10 +298,10 @@ body {
   gap: 12px;
   flex-shrink: 0;
 }
-.hg-col--0 { transform: translateY(480px); }
-.hg-col--1 { transform: translateY(80px); }
-.hg-col--2 { transform: translateY(40px); }
-.hg-col--3 { transform: translateY(0); }
+.hg-col--0 { transform: translateY(0px); }
+.hg-col--1 { transform: translateY(40px); }
+.hg-col--2 { transform: translateY(0px); }
+.hg-col--3 { transform: translateY(40px); }
 
 /* base tile */
 .hg-tile {
