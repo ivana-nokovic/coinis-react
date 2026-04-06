@@ -68,12 +68,12 @@ export default function Hero() {
         </div>
 
         <h1 className="hero__h1">
-          Marketing that{' '}
-          <span className="grad-text">runs itself.</span>
+          Marketing that Actually<br />
+          <span className="grad-text">Runs by Itself</span>
         </h1>
 
         <p className="hero__sub">
-          Connect your brand. Coinis handles the creatives, the campaigns, and the optimization — on autopilot.
+          No agency. No designer. No guesswork. Just paste your URL and let Coinis do what your entire marketing team used to.
         </p>
 
         <div className="cta-pair">
