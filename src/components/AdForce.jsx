@@ -8,7 +8,7 @@ export default function AdForce() {
           </svg>
           Coinis AI-Powered Platform
         </span>
-        <h2>Run ads on Meta, Google &amp; TikTok<br />with lower CPAs.</h2>
+        <h2>Run ads on Meta, Google &amp; TikTok with lower CPAs.</h2>
         <p className="final__sub">AdForce gives you pre-warmed ad accounts, dedicated platform reps, and workspace infrastructure trusted by 2,800+ advertisers worldwide.</p>
 
         <div className="final__metrics">
